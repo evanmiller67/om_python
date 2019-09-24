@@ -1,0 +1,10 @@
+# Use Pipenv for package management (a la bundler, npm, etc)
+
+# brew install pipenv
+# mkdir virt_env
+# cd virt_env
+# pipenv --three  # creates the virtual environment
+# pipenv shell    # now in a shell that has access to the virtual environment
+# pipenv install $PACKAGE
+# pipenv run pip freeze | pip freeze
+
